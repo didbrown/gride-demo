@@ -2,25 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url><url>
-    <loc>/020-getting-started/10_first.html</loc>
-  </url><url>
     <loc>/010-introduction.html</loc>
   </url><url>
-    <loc>/020-getting-started.html</loc>
-  </url><url>
-    <loc>/020-getting-started/20_second.html</loc>
+    <loc>/020-settinguptheinteractions.html</loc>
   </url><url>
     <loc>/090-conclution.html</loc>
   </url><url>
@@ -34,6 +18,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories.html"
+                />
+  </url><url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
                 />
   </url><url>
     <loc>/tags.html</loc>
