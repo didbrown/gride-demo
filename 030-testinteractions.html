@@ -8,7 +8,7 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title>Documentation for Hugo Learn Theme :: Documentation for Hugo Learn Theme</title>
+    <title>Test Interactions :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="./css/nucleus.css?1651174554" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="./">
+  <body class="" data-url="./030-testinteractions.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -157,8 +157,8 @@
   
     
     <li data-nav-id="/030-testinteractions.html" title="Test Interactions" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="./030-testinteractions.html">
@@ -269,22 +269,10 @@
                   
                     
                     
-                      <option id="en" value="/" selected>English</option>
+                      <option id="en" value="/030-testinteractions.html" selected>English</option>
                     
                   
               
-                  
-              
-          
-              
-              
-                  
-              
-                  
-                    
-                    
-                      <option id="fr" value="/fr/">Français</option>
-                    
                   
               
           
@@ -328,32 +316,144 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            <a href='./'>Documentation for Hugo Learn Theme</a> > Test Interactions
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
+        
+          <div id="chapter">
         
         <div id="body-inner">
           
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
 
-           
+
+	<h1 id="genesys-workshop-series">Genesys Workshop Series</h1>
+<h1 id="test-interactions">Test Interactions</h1>
+<h3 id="welcome">Welcome</h3>
+<p>By the end of this section you should have a fully operational omnichannel contact center. Inbound voice, SMS, chat and email will be routed to your user and you will be able to accept and answer interactions.</p>
+<blockquote>
+<p>This workshop is focused on teaching the team how to test the following interaction channels: voice, chat, email and SMS to ensure they are being routed correctly. User should already have completed previous module.</p>
+</blockquote>
+<h2 id="test-an-incoming-voice-interaction">Test an Incoming Voice Interaction</h2>
+<ol>
+<li>The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial. Navigate to the admin page and search for &ldquo;DID&rdquo; and click &ldquo;DID Numbers&rdquo;</li>
+</ol>
+<p><img src="images/DID.jpg" alt="DID"></p>
+<ol start="2">
+<li>Navigate to the DID number that is assigned to your inbound flow and save that number to your personal device</li>
+</ol>
+<p><img src="images/inboundflow.jpg" alt="inboundflow"></p>
+<ol start="3">
+<li>Navigate to the Interactions pane on the left side of the screen and ensure you are set to &ldquo;On-Queue&rdquo; (found at top right of screen)</li>
+</ol>
+<p><img src="images/interactionpane.jpg" alt="interactionpane"></p>
+<ol start="4">
+<li>Dial the DID number from a personal phone and select &ldquo;answer&rdquo; when the interaction comes through</li>
+</ol>
+<p><img src="images/incomingcall.jpg" alt="incomingcall"></p>
+<h2 id="test-an-sms-interaction">Test an SMS Interaction</h2>
+<ol>
+<li>The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the admin page and search for &ldquo;SMS&rdquo; and click &ldquo;Number Inventory&rdquo;</li>
+</ol>
+<p><img src="images/sms.jpg" alt="sms"></p>
+<ol start="2">
+<li>Navigate to the SMS Number that is assigned to your inbound SMS flow and save that to your personal device</li>
+</ol>
+<p><img src="images/smsnumber.jpg" alt="smsnumber"></p>
+<ol start="3">
+<li>Navigate to the Interactions pane on the left side of the screen and ensure you are set to &ldquo;On-Queue&rdquo; (found at top right of screen)</li>
+</ol>
+<p><img src="images/interactionpane.jpg" alt="interactionpane"></p>
+<ol start="4">
+<li>Text the SMS number from a personal phone and select &ldquo;answer&rdquo; when the interaction comes through</li>
+</ol>
+<p><img src="images/incomingsms.jpg" alt="incomingsms"></p>
+<h2 id="test-a-chat-interaction">Test a Chat Interaction</h2>
+<ol>
+<li>
+<p>The first step in testing a chat interaction visiting the Genesys Cloud CX Developer center
+<a href="https://developer.genesys.cloud/developer-tools/#/webchat">https://developer.genesys.cloud/developer-tools/#/webchat</a></p>
+</li>
+<li>
+<p>Navigate to the Deployment dropdown and ensure you have selected the &ldquo;G-Ride&rdquo; Deployment and ensure the &ldquo;&ldquo;Queue&rdquo; field is set to &ldquo;G-Ride&rdquo;</p>
+</li>
+</ol>
+<p><img src="images/chatdev.jpg" alt="devcenter"></p>
+<ol start="3">
+<li>Navigate back to the Genesys environment and to the Interactions pane on the left side of the screen and ensure you are set to &ldquo;On-Queue&rdquo; (found at top right of screen)</li>
+</ol>
+<p><img src="images/interactionpane.jpg" alt="interactionspane"></p>
+<ol start="4">
+<li>Navigate back to the Developer Center and select &ldquo;Start Chat&rdquo; to begin the chat interaction</li>
+</ol>
+<p><img src="images/startchat.jpg" alt="startchat"></p>
+<ol start="5">
+<li>Navigate back to the Genesys Environment and select &ldquo;answer&rdquo; when chat interaction comes through</li>
+</ol>
+<p><img src="images/incomingchat.jpg" alt="incomingchat"></p>
+<h2 id="test-an-email-interaction">Test an Email Interaction</h2>
+<ol>
+<li>The first step in testing an email interaction is ensuring you have the correct email address. Navigate to the admin page and search for &ldquo;SMS&rdquo; and click &ldquo;Number Inventory&rdquo;</li>
+</ol>
+<p><img src="images/adminemail.jpg" alt="adminemail"></p>
+<ol start="2">
+<li>Navigate to the email address that is assigned to your queue and save that to the email you will use to trigger an interaction</li>
+</ol>
+<p><img src="images/emailaddress.jpg" alt="emailaddress"></p>
+<ol start="3">
+<li>Navigate to the Interactions pane on the left side of the screen and ensure you are set to &ldquo;On-Queue&rdquo; (found at top right of screen)</li>
+</ol>
+<p><img src="images/interactionpane.jpg" alt="interactionpane"></p>
+<ol start="4">
+<li>Send an email to your queue from a personal email address and select &ldquo;answer&rdquo; when the interaction comes through</li>
+</ol>
+<p><img src="images/incomingemail.jpg" alt="incomingemail"></p>
+
+
+
+
+
+<footer class=" footline" >
 	
-		<h1>Customize your own home page</h1>
-		<p>
-		  The site is working. Don't forget to customize this homepage with your own. You typically have 3 choices :
-		</p>
-		<ul>
-			<li><b>1. </b> Create an _index.md document in <b>content</b> folder and fill it with Markdown content</li>
-			<li><b>2. </b> Create an <b>index.html</b> file in the <b>static</b> folder and fill the file with HTML content</li>
-		  <li><b>3. </b> Configure your server to automatically redirect home page to one your documentation page</li>
-		</ul>
-	
-  
+</footer>
+
+        
+            </div> 
         
         </div>
         
@@ -436,6 +536,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -451,6 +552,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -488,8 +592,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="./010-introduction/20_second.html" title="Second Lesson"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="./010-introduction.html" title="Getting Started" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="./020-settinguptheinteractions.html" title="Setting Up the Interactions" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -521,4 +627,3 @@
 
   </body>
 </html>
-

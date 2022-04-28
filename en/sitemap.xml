@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/010-introduction/10_first.html</loc>
+  </url><url>
     <loc>/010-introduction.html</loc>
+  </url><url>
+    <loc>/030-testinteractions.html</loc>
+  </url><url>
+    <loc>/010-introduction/20_second.html</loc>
   </url><url>
     <loc>/020-settinguptheinteractions.html</loc>
   </url><url>

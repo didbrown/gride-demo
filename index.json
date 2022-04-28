@@ -1,10 +1,31 @@
 [
 {
-	"uri": "/010-introduction.html",
-	"title": "Introduction",
+	"uri": "/010-introduction/10_first.html",
+	"title": "First Lesson",
 	"tags": [],
 	"description": "",
-	"content": "Genesys Workshop Series Introduction Welcome In this workshop, you will learn\u0026hellip;\n This workshop is focused on things one, two and three.\n Learning Objectives  Master this Configure that Integrate this  "
+	"content": "Configure Workshop   Step one\n  Step two\n  Step three\n  "
+},
+{
+	"uri": "/010-introduction.html",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": "Getting Started  First Lesson   Second Lesson   "
+},
+{
+	"uri": "/030-testinteractions.html",
+	"title": "Test Interactions",
+	"tags": [],
+	"description": "",
+	"content": "Genesys Workshop Series Test Interactions Welcome By the end of this section you should have a fully operational omnichannel contact center. Inbound voice, SMS, chat and email will be routed to your user and you will be able to accept and answer interactions.\n This workshop is focused on teaching the team how to test the following interaction channels: voice, chat, email and SMS to ensure they are being routed correctly. User should already have completed previous module.\n Test an Incoming Voice Interaction  The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial. Navigate to the admin page and search for \u0026ldquo;DID\u0026rdquo; and click \u0026ldquo;DID Numbers\u0026rdquo;  Navigate to the DID number that is assigned to your inbound flow and save that number to your personal device  Navigate to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Dial the DID number from a personal phone and select \u0026ldquo;answer\u0026rdquo; when the interaction comes through  Test an SMS Interaction  The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the admin page and search for \u0026ldquo;SMS\u0026rdquo; and click \u0026ldquo;Number Inventory\u0026rdquo;  Navigate to the SMS Number that is assigned to your inbound SMS flow and save that to your personal device  Navigate to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Text the SMS number from a personal phone and select \u0026ldquo;answer\u0026rdquo; when the interaction comes through  Test a Chat Interaction   The first step in testing a chat interaction visiting the Genesys Cloud CX Developer center https://developer.genesys.cloud/developer-tools/#/webchat\n  Navigate to the Deployment dropdown and ensure you have selected the \u0026ldquo;G-Ride\u0026rdquo; Deployment and ensure the \u0026ldquo;\u0026ldquo;Queue\u0026rdquo; field is set to \u0026ldquo;G-Ride\u0026rdquo;\n  Navigate back to the Genesys environment and to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Navigate back to the Developer Center and select \u0026ldquo;Start Chat\u0026rdquo; to begin the chat interaction  Navigate back to the Genesys Environment and select \u0026ldquo;answer\u0026rdquo; when chat interaction comes through  Test an Email Interaction  The first step in testing an email interaction is ensuring you have the correct email address. Navigate to the admin page and search for \u0026ldquo;SMS\u0026rdquo; and click \u0026ldquo;Number Inventory\u0026rdquo;  Navigate to the email address that is assigned to your queue and save that to the email you will use to trigger an interaction  Navigate to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Send an email to your queue from a personal email address and select \u0026ldquo;answer\u0026rdquo; when the interaction comes through  "
+},
+{
+	"uri": "/010-introduction/20_second.html",
+	"title": "Second Lesson",
+	"tags": [],
+	"description": "",
+	"content": "Advanced Lesson   Step one\n  Step two\n  Step three\n  "
 },
 {
 	"uri": "/020-settinguptheinteractions.html",
