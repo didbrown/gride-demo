@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
     <loc>/010-introduction/10_first.html</loc>
   </url><url>
     <loc>/010-introduction.html</loc>
@@ -34,18 +46,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories.html"
-                />
-  </url><url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
                 />
   </url><url>
     <loc>/tags.html</loc>

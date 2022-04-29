@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/060-application/10_first.html</guid>
-      <description>Preparation   Step One: Go to the top right corner of the Genesys Cloud CX application (either browser or desktop) and toggle the on-queue switch to on. This turns the user&amp;rsquo;s status to on-queue and available for routing interactions in all queues that the user is active in.
+      <description>Let&amp;rsquo;s get ready   Step One: Go to the top right corner of the Genesys Cloud CX application (either browser or desktop) and toggle the on-queue switch to on. This turns the user&amp;rsquo;s status to on-queue and available for routing interactions in all queues that the user is active in.
   Step Two: You need to do two things to ensure you&amp;rsquo;re ready to start receiving interactions:
 Go to the user profile in the top left corner, and verify: (1) you have a phone/endpoint selected (this will typically be webRTC) and (2) hit the activate queues button and ensure you&amp;rsquo;re activated in the queue you created.</description>
     </item>
@@ -23,7 +23,7 @@ Go to the user profile in the top left corner, and verify: (1) you have a phone/
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/060-application/20_second.html</guid>
-      <description>Digital Interactions The purpose of this scenario is to showcase utilization and how we can manage an omnichannel approach.
+      <description>Scenario The purpose of this scenario is to showcase utilization and how we can manage an omnichannel approach.
   If not already on-queue, toggle the on-queue switch so that your status is &amp;ldquo;on-queue.&amp;rdquo; From here, we&amp;rsquo;re going to trigger two interaction types - email, and chat.
   Send an email to the email address domain you created within the Genesys Cloud CX admin panel. If set up appropriately, it will route directly to the &amp;ldquo;G Ride&amp;rdquo; Queue and to your user in the Agent Interface.</description>
     </item>
@@ -34,7 +34,7 @@ Go to the user profile in the top left corner, and verify: (1) you have a phone/
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/060-application/30_third.html</guid>
-      <description>Voice Interaction   Call the phone number purchased earlier that&amp;rsquo;s tied to the call flow uploaded. In the IVR, you will hear the prompt and then be routed to queue. If your user is on-queue, the interaction will be routed to you and interrupt the digital interactions.
+      <description>Scenario   Call the phone number purchased earlier that&amp;rsquo;s tied to the call flow uploaded. In the IVR, you will hear the prompt and then be routed to queue. If your user is on-queue, the interaction will be routed to you and interrupt the digital interactions.
 NOTE: If you&amp;rsquo;re calling from the phone number listed on your user profile, the interaction will not route to you. Please ensure that the ANI you&amp;rsquo;re calling from is separate than the primary voice number listed in GCCX.</description>
     </item>
     
