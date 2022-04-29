@@ -1,97 +1,97 @@
 [
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/",
+	"uri": "/",
 	"title": "Genesys Workshop",
 	"tags": [],
 	"description": "",
 	"content": "Welcome In this workshop you will learn to apply your foundational knowledge of Genesys and master example use cases that demonstrate Experience as a Service.\nLearning Objectives  Setup and configure your environment. Creating users and groups. Configure security.  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/010-introduction/10_first.html",
+	"uri": "/010-introduction/10_first.html",
 	"title": "First Lesson",
 	"tags": [],
 	"description": "",
 	"content": "Configure Workshop   Step one\n  Step two\n  Step three\n  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/010-introduction.html",
+	"uri": "/010-introduction.html",
 	"title": "Getting Started",
 	"tags": [],
 	"description": "",
 	"content": "Getting Started  First Lesson   Second Lesson   "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/060-application/10_first.html",
+	"uri": "/060-application/10_first.html",
 	"title": "Preparation",
 	"tags": [],
 	"description": "",
 	"content": "Let\u0026rsquo;s get ready   Step One: Go to the top right corner of the Genesys Cloud CX application (either browser or desktop) and toggle the on-queue switch to on. This turns the user\u0026rsquo;s status to on-queue and available for routing interactions in all queues that the user is active in.\n  Step Two: You need to do two things to ensure you\u0026rsquo;re ready to start receiving interactions:\nGo to the user profile in the top left corner, and verify: (1) you have a phone/endpoint selected (this will typically be webRTC) and (2) hit the activate queues button and ensure you\u0026rsquo;re activated in the queue you created. Please reference the picture below.\n  Step Three: Move to the interaction screen and we\u0026rsquo;re ready to start walking through the scenarios.\n  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/060-application/20_second.html",
+	"uri": "/060-application/20_second.html",
 	"title": "Digital Interactions",
 	"tags": [],
 	"description": "",
 	"content": "Scenario The purpose of this scenario is to showcase utilization and how we can manage an omnichannel approach.\n  If not already on-queue, toggle the on-queue switch so that your status is \u0026ldquo;on-queue.\u0026rdquo; From here, we\u0026rsquo;re going to trigger two interaction types - email, and chat.\n  Send an email to the email address domain you created within the Genesys Cloud CX admin panel. If set up appropriately, it will route directly to the \u0026ldquo;G Ride\u0026rdquo; Queue and to your user in the Agent Interface. Once routed, accept.\n  It\u0026rsquo;s time to route a chat. This will eventually be replaced with a web messaging option in this workshop. You must login in using your GC CX credentials or be. Go to the Developer Tools Website and reference the Chat Tool linked here. It should look like the example below:\nChoose the \u0026ldquo;G Ride\u0026rdquo; chat deployment and queue that you created earlier. Fill out the chat data (which is optional). When ready, hit the start chat icon at the bottom of the page. It should create a chat interaction that routes into queue if configured correctly. If on-queue and utilization is configured appropriately, it will be routed to you as an agent. Hit accept.\n  Start walking through the interface as an agent, toggling through the interaction tools listed at the top:\nYou will see similarities in the interaction tools throughout all interaction types, with voice being the only channel with different options. Once comfortable, move to the agent tools on the right side of the screen.\nEnsure you\u0026rsquo;re in the chat interaction, but canned responses work in all digital channels. Click specifically on the canned response section. Find the folder that you created, search for the response and click the button to add it as a response. Once you have proofread, hit send. For further information on canned responses and managing libraries, reference this link.\n  Once you have successfully moved through the digital interactions and the tools associated, it\u0026rsquo;s time to move into the next scenario. Please stay connected to the email and chat interactions. You have now completed the scenario.\n  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/010-introduction/20_second.html",
+	"uri": "/010-introduction/20_second.html",
 	"title": "Second Lesson",
 	"tags": [],
 	"description": "",
 	"content": "Advanced Lesson   Step one\n  Step two\n  Step three\n  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/020-settinguptheinteractions.html",
+	"uri": "/020-settinguptheinteractions.html",
 	"title": "Setting Up the Interactions",
 	"tags": [],
 	"description": "",
 	"content": "Objective By the end of this section, you should have an omnichannel contact center in the works. You’ll learn the steps to set up inbound voice, SMS, chat and email. So let’s get into the details, please follow along.\nFollow Along   Create a new queue and name it \u0026ldquo;G Ride\u0026rdquo; - https://help.mypurecloud.com/articles/create-queues/\n It is important to follow the naming convention because it will affect later steps. Add yourself as a member of the queue    Purchase a phone number for voice - https://help.mypurecloud.com/articles/purchase-did-numbers/\n  Create a v1 chat widget - https://help.mypurecloud.com/articles/create-a-widget-for-web-chat/\n  Follow the steps at this link to set up inbound email - https://help.mypurecloud.com/articles/register-domain-redirect-inbound-messages/\n Under \u0026ldquo;Add the inbound email address to the domain\u0026rdquo;, you will do number 3 for routing to a queue instead of number 4 for routing to a flow. You will have this email domain route straight to the G Ride queue that you created earlier.    Purchase a number for SMS - https://help.mypurecloud.com/articles/purchase-sms-long-code-numbers/\n  Go back into the G Ride queue and add an outbound calling number with the number you purchased for voice, an outbound SMS number with the SMS number your purchased, and an outbound email domain with the email you purchased. The screenshots below should help.\n   Import the following architect flows below following these steps - https://help.mypurecloud.com/articles/import-export-call-flow/\n In architect, you are able to import flows for every media type. We are giving you two flows for import; an inbound voice flow and a message flow. Be sure to navigate to the correct flow type in architect before following the import steps.   Inbound Voice Flow  Right click the link and save as   Inbound Message Flow  right click the link and save as      Set up a call route to connect your inbound call architect flow to the DID that you purchased in step 1 - https://help.mypurecloud.com/articles/add-a-call-route/\n You only need to do the step for \u0026ldquo;Create a call route entry and associate telephone numbers\u0026rdquo;    Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step 4 - https://help.mypurecloud.com/articles/add-inbound-message-route/\n  Update your utilization settings to match this screenshot - https://help.mypurecloud.com/articles/configure-utilization-at-the-org-level/\n  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/030-testinteractions.html",
+	"uri": "/030-testinteractions.html",
 	"title": "Test the Interactions",
 	"tags": [],
 	"description": "",
 	"content": "Welcome By the end of this section you should have a fully operational omnichannel contact center. Inbound voice, SMS, chat and email will be routed to your user and you will be able to accept and answer interactions.\n This workshop is focused on teaching the team how to test the following interaction channels: voice, chat, email and SMS to ensure they are being routed correctly. User should already have completed previous module.\n Test an Incoming Voice Interaction  The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial. Navigate to the admin page and search for \u0026ldquo;DID\u0026rdquo; and click \u0026ldquo;DID Numbers\u0026rdquo;  Navigate to the DID number that is assigned to your inbound flow and save that number to your personal device  Navigate to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Dial the DID number from a personal phone and select \u0026ldquo;answer\u0026rdquo; when the interaction comes through  Test an SMS Interaction  The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the admin page and search for \u0026ldquo;SMS\u0026rdquo; and click \u0026ldquo;Number Inventory\u0026rdquo;  Navigate to the SMS Number that is assigned to your inbound SMS flow and save that to your personal device  Navigate to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Text the SMS number from a personal phone and select \u0026ldquo;answer\u0026rdquo; when the interaction comes through  Test a Chat Interaction   The first step in testing a chat interaction visiting the Genesys Cloud CX Developer Center\n  Navigate to the Deployment dropdown and ensure you have selected the \u0026ldquo;G-Ride\u0026rdquo; Deployment and ensure the \u0026ldquo;\u0026ldquo;Queue\u0026rdquo; field is set to \u0026ldquo;G-Ride\u0026rdquo;\n  Navigate back to the Genesys environment and to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Navigate back to the Developer Center and select \u0026ldquo;Start Chat\u0026rdquo; to begin the chat interaction  Navigate back to the Genesys Environment and select \u0026ldquo;answer\u0026rdquo; when chat interaction comes through  Test an Email Interaction  The first step in testing an email interaction is ensuring you have the correct email address. Navigate to the admin page and search for \u0026ldquo;SMS\u0026rdquo; and click \u0026ldquo;Number Inventory\u0026rdquo;  Navigate to the email address that is assigned to your queue and save that to the email you will use to trigger an interaction  Navigate to the Interactions pane on the left side of the screen and ensure you are set to \u0026ldquo;On-Queue\u0026rdquo; (found at top right of screen)  Send an email to your queue from a personal email address and select \u0026ldquo;answer\u0026rdquo; when the interaction comes through  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/060-application/30_third.html",
+	"uri": "/060-application/30_third.html",
 	"title": "Voice Interaction",
 	"tags": [],
 	"description": "",
 	"content": "Scenario   Call the phone number purchased earlier that\u0026rsquo;s tied to the call flow uploaded. In the IVR, you will hear the prompt and then be routed to queue. If your user is on-queue, the interaction will be routed to you and interrupt the digital interactions.\nNOTE: If you\u0026rsquo;re calling from the phone number listed on your user profile, the interaction will not route to you. Please ensure that the ANI you\u0026rsquo;re calling from is separate than the primary voice number listed in GCCX.\n  Accept the voice interaction as outlined in the example below. If you don\u0026rsquo;t accept before being timed-out and moved to not-responding status, change your status back to on-queue and the interaction will be routed back to you. Once you have accepted the interaction, you should have three interactions, with voice being the top option due to priority.\n  Walk through the call controls showcased at the top of the screen. Then, move to the agent tools on the right side, specifically, the Notes section. Add a note to the interaction that says, \u0026ldquo;Requested transfer to another agent. Have already authenticated, you\u0026rsquo;re speaking with Veronica.\u0026rdquo;\nOnce the note has been completed, move back to the call controls and access the Consult Transfer option. Search for a specific user within your organization, but do not transfer. Then, search for the \u0026ldquo;G Ride\u0026rdquo; queue that was created for this workshop. Transfer the interaction to that queue.\nIf you are the only agent available in this queue, the interaction will route back to you. Accept the interaction and located the notes. There should be an orange dot highlighting that a note has been passed with this interaction. Verify and read the notes.\nKeep You have now completed the scenario.\n  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/060-application.html",
+	"uri": "/060-application.html",
 	"title": "Application - Interaction Experience",
 	"tags": [],
 	"description": "",
 	"content": "Objective This is the final module of this workshop where you will combine the other elements you built to execute interaction-based scenarios in Genesys Cloud CX. Upon completion, you will understand how to successfully manage interactions and utilize the tools available in the GC CX agent interface.\nLearning Objectives  Configure the routing of interactions to an agent Utilization of agent and interaction tools within the solution Master the fundamentals of being an omnichannel agent   Preparation   Digital Interactions   Voice Interaction   Omnichannel Experience   "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/060-application/40_fourth.html",
+	"uri": "/060-application/40_fourth.html",
 	"title": "Omnichannel Experience",
 	"tags": [],
 	"description": "",
 	"content": "Manual Outbound Interactions   You now have, at least, two-three interactions connected, and you\u0026rsquo;re learning the basics of an omnichannel experience. We\u0026rsquo;re going to throw one more interaction type into the mix. On the phone call, the customer requests that the contact center agent sends out a text message with specific information, such as a retail address, for them to quickly access.\n  To complete this request, you need to go into the interaction pane and next to the conversations heading, there will be a \u0026ldquo;+\u0026rdquo; icon next to a human outline.This icon allows an agent to start a new call or [email on behalf of a queue with a customer. We also have another option to effortlessly start interactions too.\n  When you click the plus icon, you will be presented with options to start a new conversation:\nClick \u0026ldquo;Send Message,\u0026rdquo; choose the \u0026ldquo;G Ride\u0026rdquo; Queue and add input the ten-digit phone number that you\u0026rsquo;d like to text. You should pull the same Ani that is being used on the voice call, if possible. When ready, hit the green icon to start the SMS interaction.\n  Either input manually a message to send out or utilize another canned response. When finished, close out and end the interactions (part of the interaction tools). Each one will prompt you for the appropriate after-call work and wrap-up that you created.\n  Once you have completed this, you have finished the scenario and module and have successfully learned the basics of the Genesys Cloud CX Omnichannel Agent Interaction Experience.\nTo note, this is just the introduction of the Genesys Cloud CX Interactions. There are more interaction types such as social media and third-party interactions that we have not covered. For further information, please visit this link to learn how to work with Agent Interactions.\n  "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/090-conclution.html",
+	"uri": "/090-conclution.html",
 	"title": "Conclusion",
 	"tags": [],
 	"description": "",
 	"content": "Finished! Congrats! You\u0026rsquo;ve reached the end of today\u0026rsquo;s workshop. Please fill out today\u0026rsquo;s feedback form via this TODO\n "
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/categories.html",
+	"uri": "/categories.html",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://genesys-samples.github.io/gride-demo/tags.html",
+	"uri": "/tags.html",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

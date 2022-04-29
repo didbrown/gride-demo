@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Setting Up the Interactions on Documentation for Hugo Learn Theme</title>
-    <link>https://genesys-samples.github.io/gride-demo/020-settinguptheinteractions.html</link>
+    <link>/020-settinguptheinteractions.html</link>
     <description>Recent content in Setting Up the Interactions on Documentation for Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://genesys-samples.github.io/gride-demo/020-settinguptheinteractions/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/020-settinguptheinteractions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
