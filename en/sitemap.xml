@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/"
+                href="https://genesys-samples.github.io/gride-demo/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://genesys-samples.github.io/gride-demo/"
                 />
   </url><url>
-    <loc>/010-introduction/10_first.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/010-introduction/10_first.html</loc>
   </url><url>
-    <loc>/010-introduction.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/010-introduction.html</loc>
   </url><url>
-    <loc>/060-application/10_first.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/060-application/10_first.html</loc>
   </url><url>
-    <loc>/060-application/20_second.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/060-application/20_second.html</loc>
   </url><url>
-    <loc>/010-introduction/20_second.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/010-introduction/20_second.html</loc>
   </url><url>
-    <loc>/020-settinguptheinteractions.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/020-settinguptheinteractions.html</loc>
   </url><url>
-    <loc>/030-testinteractions.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/030-testinteractions.html</loc>
   </url><url>
-    <loc>/060-application/30_third.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/060-application/30_third.html</loc>
   </url><url>
-    <loc>/060-application.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/060-application.html</loc>
   </url><url>
-    <loc>/060-application/40_fourth.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/060-application/40_fourth.html</loc>
   </url><url>
-    <loc>/090-conclution.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/090-conclution.html</loc>
   </url><url>
-    <loc>/categories.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/categories.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories.html"
+                href="https://genesys-samples.github.io/gride-demo/fr/categories.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories.html"
+                href="https://genesys-samples.github.io/gride-demo/categories.html"
                 />
   </url><url>
-    <loc>/tags.html</loc>
+    <loc>https://genesys-samples.github.io/gride-demo/tags.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/tags.html"
+                href="https://genesys-samples.github.io/gride-demo/fr/tags.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags.html"
+                href="https://genesys-samples.github.io/gride-demo/tags.html"
                 />
   </url>
 </urlset>
