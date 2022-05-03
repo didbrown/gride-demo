@@ -67,6 +67,16 @@ NOTE: If you&amp;rsquo;re calling from the phone number listed on your user prof
     </item>
     
     <item>
+      <title>Email</title>
+      <link>/020-settinguptheinteractions/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/020-settinguptheinteractions/40_fourth.html</guid>
+      <description>Genesys Cloud Email Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
+Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods.</description>
+    </item>
+    
+    <item>
       <title>Omnichannel Experience</title>
       <link>/060-application/40_fourth.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -74,15 +84,6 @@ NOTE: If you&amp;rsquo;re calling from the phone number listed on your user prof
       <guid>/060-application/40_fourth.html</guid>
       <description>Manual Outbound Interactions   You now have, at least, two-three interactions connected, and you&amp;rsquo;re learning the basics of an omnichannel experience. We&amp;rsquo;re going to throw one more interaction type into the mix. On the phone call, the customer requests that the contact center agent sends out a text message with specific information, such as a retail address, for them to quickly access.
   To complete this request, you need to go into the interaction pane and next to the conversations heading, there will be a &amp;ldquo;+&amp;rdquo; icon next to a human outline.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/020-settinguptheinteractions/40_fourth.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/020-settinguptheinteractions/40_fourth.html</guid>
-      <description></description>
     </item>
     
   </channel>
