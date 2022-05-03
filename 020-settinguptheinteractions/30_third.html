@@ -8,7 +8,7 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title>Omnichannel Experience :: Documentation for Hugo Learn Theme</title>
+    <title>SMS :: Documentation for Hugo Learn Theme</title>
 
     
     <link href="../css/nucleus.css?1651604807" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="../060-application/40_fourth.html">
+  <body class="" data-url="../020-settinguptheinteractions/30_third.html">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -105,7 +105,7 @@
   
     
     <li data-nav-id="/020-settinguptheinteractions.html" title="Setting Up the Interactions" class="dd-item
-        
+        parent
         
         
         ">
@@ -175,7 +175,7 @@
  
   
     
-      <li data-nav-id="/020-settinguptheinteractions/30_third.html" title="SMS" class="dd-item ">
+      <li data-nav-id="/020-settinguptheinteractions/30_third.html" title="SMS" class="dd-item active">
         <a href="../020-settinguptheinteractions/30_third.html">
         SMS
         <i class="fas fa-check read-icon"></i>
@@ -251,7 +251,7 @@
   
     
     <li data-nav-id="/060-application.html" title="Application - Interaction Experience" class="dd-item
-        parent
+        
         
         
         ">
@@ -342,7 +342,7 @@
  
   
     
-      <li data-nav-id="/060-application/40_fourth.html" title="Omnichannel Experience" class="dd-item active">
+      <li data-nav-id="/060-application/40_fourth.html" title="Omnichannel Experience" class="dd-item ">
         <a href="../060-application/40_fourth.html">
         Omnichannel Experience
         <i class="fas fa-check read-icon"></i>
@@ -431,7 +431,7 @@
                   
                     
                     
-                      <option id="en" value="/060-application/40_fourth.html" selected>English</option>
+                      <option id="en" value="/020-settinguptheinteractions/30_third.html" selected>English</option>
                     
                   
               
@@ -505,7 +505,7 @@
             
           
           
-            <a href='../'>Genesys Workshop</a> > <a href='../060-application.html'>Application - Interaction Experience</a> > Omnichannel Experience
+            <a href='../'>Genesys Workshop</a> > <a href='../020-settinguptheinteractions.html'>Setting Up the Interactions</a> > SMS
           
         
           
@@ -520,7 +520,9 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#manual-outbound-interactions">Manual Outbound Interactions</a></li>
+    <li><a href="#genesys-cloud-sms">Genesys Cloud SMS</a></li>
+    <li><a href="#what-we-will-build-today">What We Will Build Today</a></li>
+    <li><a href="#follow-along">Follow Along</a></li>
   </ul>
 </nav>
     </div>
@@ -538,35 +540,34 @@
           
             <h1>
               
-              Omnichannel Experience
+              SMS
             </h1>
           
 
         
 
 
-<h2 id="manual-outbound-interactions">Manual Outbound Interactions</h2>
+<h2 id="genesys-cloud-sms">Genesys Cloud SMS</h2>
+<p>Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &ldquo;on the go&rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</p>
+<p>SMS interactions are routed by the same orchestration engine as other media types in Genesys Cloud CX, and that is through Architect. Architect allows you to perform data dips, engage with Bots, attach routing logic and much more.</p>
+<p>With agents communicating via SMS, the agent can keep the message open and use SMS like a chat channel, or close the SMS message after replying. If the agent keeps the conversation open, the system immediately displays each customer response to the agent, using SMS messages as a chat channel. If the agent closes the conversation but the customer replies within 72 hours, the conversation reopens (after 72 hours, the system creates a new conversation) and routes to the last agent that handled the SMS. If that agent is unavailable, the system routes the message by ACD to the next available agent.</p>
+<h2 id="what-we-will-build-today">What We Will Build Today</h2>
+<p>Today, we&rsquo;ll set up the basics of SMS in Genesys Cloud CX. You&rsquo;ll purchase an SMS number directly from the Genesys Cloud admin portal, with Genesys being your SMS broker. You&rsquo;ll also import a basic Inbound Message Architect flow. Lastly, you&rsquo;ll connect the SMS number you purchased to the Architect flow that you imported through a messaging route.</p>
+<h2 id="follow-along">Follow Along</h2>
 <ol>
-<li>
-<p>You now have, at least, two-three interactions connected, and you&rsquo;re learning the basics of an omnichannel experience. We&rsquo;re going to throw one more interaction type into the mix. On the phone call, the customer requests that the contact center agent sends out a text message with specific information, such as a retail address, for them to quickly access.</p>
+<li>Purchase a number for SMS - <a href="https://help.mypurecloud.com/articles/purchase-sms-long-code-numbers/">https://help.mypurecloud.com/articles/purchase-sms-long-code-numbers/</a></li>
+<li>Go back into the G Ride queue and set the SMS number you just purchased as the outbound SMS number
+<img src="../images/QueueSetSMSOutboundNumber.jpg" alt="Queue Set Outbound SMS Number"></li>
+<li>Import the following architect Message flow below following these steps - <a href="https://help.mypurecloud.com/articles/import-export-call-flow/">https://help.mypurecloud.com/articles/import-export-call-flow/</a>
+<ul>
+<li><a href="../../imports/GRide100MessageFlow_v1-0.i3InboundMessage">Inbound Message Flow</a>
+<ul>
+<li>right click the link and save as</li>
+</ul>
 </li>
-<li>
-<p>To complete this request, you need to go into the interaction pane and next to the conversations heading, there will be a &ldquo;+&rdquo; icon next to a human outline.This icon allows an agent to start a new <a href="https://help.mypurecloud.com/articles/place-a-call-on-behalf-of-a-queue/">call</a> or [email<a href="https://help.mypurecloud.com/articles/send-outbound-email-behalf-queue/"></a> on behalf of a queue with a customer. We also have another option to <a href="https://help.mypurecloud.com/articles/switch-channels-for-an-interaction/">effortlessly start interactions</a> too.</p>
-<p><img src="../images/Conversation_Plus.png" alt="Picture"></p>
+</ul>
 </li>
-<li>
-<p>When you click the plus icon, you will be presented with options to start a new conversation:</p>
-<p><img src="../images/StartConversation.png" alt="Picture"></p>
-<p>Click &ldquo;Send Message,&rdquo; choose the &ldquo;G Ride&rdquo; Queue and add input the ten-digit phone number that you&rsquo;d like to text. You should pull the same Ani that is being used on the voice call, if possible. When ready, hit the green icon to start the SMS interaction.</p>
-</li>
-<li>
-<p>Either input manually a message to send out or utilize another canned response. When finished, close out and end the interactions (part of the interaction tools). Each one will prompt you for the appropriate after-call work and wrap-up that you created.</p>
-<p><img src="../images/WrapUpCodes.png" alt="Picture"></p>
-</li>
-<li>
-<p>Once you have completed this, you have finished the scenario and module and have successfully learned the basics of the Genesys Cloud CX Omnichannel Agent Interaction Experience.</p>
-<p>To note, this is just the introduction of the Genesys Cloud CX Interactions. There are more interaction types such as social media and third-party interactions that we have not covered. For further information, please visit this link to learn how to work with <a href="https://help.mypurecloud.com/articles/about-agent-interactions/">Agent Interactions</a>.</p>
-</li>
+<li>Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step 4 - <a href="https://help.mypurecloud.com/articles/add-inbound-message-route/">https://help.mypurecloud.com/articles/add-inbound-message-route/</a></li>
 </ol>
 
 
@@ -669,6 +670,106 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -703,106 +804,6 @@
             
             
                 
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -824,10 +825,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="../060-application/30_third.html" title="Voice Interaction"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="../020-settinguptheinteractions/20_second.html" title="Web Chat"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="../090-conclution.html" title="Conclusion" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../020-settinguptheinteractions/40_fourth.html" title="" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
