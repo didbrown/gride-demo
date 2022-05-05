@@ -7,12 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Inbound Voice Setup</title>
+      <title>Inbound Voice</title>
       <link>/020-settinguptheinteractions/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/020-settinguptheinteractions/10_first.html</guid>
       <description>Genesys Cloud Inbound Voice While new communication channels continue to crop up, the importance of voice remains. The speed and agility of the Genesys™ Genesys Cloud CX™ contact center platform connects your customer engagement with the telephony option that best fits your business needs. The widest variety of voice services connectivity options in the industry gives customers unparalleled flexibility and choice. Customers can choose Genesys Cloud CX Voice (Genesys telecom) for VoIP, use the cloud-based Bring Your Own Carrier (BYOC) option.</description>
+    </item>
+    
+    <item>
+      <title>Inbound Voice Testing</title>
+      <link>/030-testinteractions/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/030-testinteractions/10_first.html</guid>
+      <description>Test an Incoming Voice Interaction  The first step in testing a voice interaction is ensuring you have the correct inbound voice number to dial. Navigate to the admin page and search for call routing. Find the call route that you set up earlier and save the phone number to your mobile device.  Navigate to the Interactions pane on the left side of the screen and ensure you are set to &amp;ldquo;On-Queue&amp;rdquo; (found at top right of screen)  Dial the DID number from a personal phone and select &amp;ldquo;answer&amp;rdquo; when the interaction comes through  </description>
     </item>
     
     <item>
@@ -24,6 +33,15 @@
       <description>Let&amp;rsquo;s get ready   Step One: Go to the top right corner of the Genesys Cloud CX application (either browser or desktop) and toggle the on-queue switch to on. This turns the user&amp;rsquo;s status to on-queue and available for routing interactions in all queues that the user is active in.
   Step Two: You need to do two things to ensure you&amp;rsquo;re ready to start receiving interactions:
 Go to the user profile in the top left corner, and verify: (1) you have a phone/endpoint selected (this will typically be webRTC) and (2) hit the activate queues button and ensure you&amp;rsquo;re activated in the queue you created.</description>
+    </item>
+    
+    <item>
+      <title>Voice Troubleshooting</title>
+      <link>/080-troubleshooting/10_first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/080-troubleshooting/10_first.html</guid>
+      <description>Voice Troubleshooting words</description>
     </item>
     
     <item>
@@ -48,12 +66,49 @@ Widgets Genesys offers three native versions of widgets as well as the option to
     </item>
     
     <item>
+      <title>Web Chat Testing</title>
+      <link>/030-testinteractions/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/030-testinteractions/20_second.html</guid>
+      <description>Test a Chat Interaction   The first step in testing a chat interaction visiting our web chat developer tool at the Genesys Cloud CX Developer Center
+  First you&amp;rsquo;ll need to login to your Genesys Cloud instance by clicking on your profile picture. Then navigate to the Deployment dropdown and ensure you have selected the &amp;ldquo;G-Ride&amp;rdquo; Deployment and ensure the &amp;ldquo;&amp;ldquo;Queue&amp;rdquo; field is set to &amp;ldquo;G-Ride.&amp;rdquo; You can then put in any customer data if you like and then press start chat.</description>
+    </item>
+    
+    <item>
+      <title>Web Chat Troubleshooting</title>
+      <link>/080-troubleshooting/20_second.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/080-troubleshooting/20_second.html</guid>
+      <description>Web Chat Troubleshooting </description>
+    </item>
+    
+    <item>
       <title>SMS</title>
       <link>/020-settinguptheinteractions/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/020-settinguptheinteractions/30_third.html</guid>
       <description>Genesys Cloud SMS Customers often want to contact businesses in the same way they would contact friends and family. SMS allows for a more convienent, asynchronous mode of communication. Using SMS, customers can avoid calling and waiting on hold for an available agent. SMS also allows customers to engage &amp;ldquo;on the go&amp;rdquo; without a dedicated mobile app. Also, because customers engage by SMS at faster rates than any other messaging channel, the organization can resolve issues more quickly.</description>
+    </item>
+    
+    <item>
+      <title>SMS Testing</title>
+      <link>/030-testinteractions/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/030-testinteractions/30_third.html</guid>
+      <description>Test an SMS Interaction   The first step in testing an SMS interaction is ensuring you have the correct number. Navigate to the admin page and search for &amp;ldquo;Message Routing.&amp;rdquo; Then find the message route that you created earlier and save the SMS number to your mobile device.   Navigate to the Interactions pane on the left side of the screen and ensure you are set to &amp;ldquo;On-Queue&amp;rdquo; (found at top right of screen)</description>
+    </item>
+    
+    <item>
+      <title>SMS Troubleshooting</title>
+      <link>/080-troubleshooting/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/080-troubleshooting/30_third.html</guid>
+      <description>SMS Troubleshooting </description>
     </item>
     
     <item>
@@ -74,6 +129,24 @@ NOTE: If you&amp;rsquo;re calling from the phone number listed on your user prof
       <guid>/020-settinguptheinteractions/40_fourth.html</guid>
       <description>Genesys Cloud Email Email is still one of the most reliable and desired ways for customers to interact with companies for support. Genesys Cloud CX automatically distributes emails to the best-fit agent based on content analysis and keywords. Genesys Email Routing streamlines your response process using email automation functionality that enables you to monitor, measure, and optimize your email flow to create a better customer experience.
 Genesys Cloud routes incoming email messages through ACD just like it routes calls and chats, using the same routing and evaluation methods.</description>
+    </item>
+    
+    <item>
+      <title>Email Testing</title>
+      <link>/030-testinteractions/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/030-testinteractions/40_fourth.html</guid>
+      <description>Test an Email Interaction   The first step in testing an email interaction is ensuring you have the correct email address. Navigate to the admin page and search for &amp;ldquo;Email.&amp;rdquo; Then click into the domain you created and find the email address that you created earlier. All we need to do is send an email from our personal email to that email address! Go ahead and do that now.</description>
+    </item>
+    
+    <item>
+      <title>Email Troubleshooting</title>
+      <link>/080-troubleshooting/40_fourth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/080-troubleshooting/40_fourth.html</guid>
+      <description>Email Troubleshooting </description>
     </item>
     
     <item>
