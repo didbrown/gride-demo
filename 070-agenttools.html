@@ -8,25 +8,25 @@
 <meta name="author" content="Genesys">
 
     <link rel="icon" href="https://developer.genesys.com/wp-content/uploads/2020/07/Genesys_Favicon.ico" type="image/x-icon" />
-    <title> :: Documentation for Hugo Learn Theme</title>
+    <title>Agent Tools :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="./css/nucleus.css?1651756385" rel="stylesheet">
-    <link href="./css/fontawesome-all.min.css?1651756385" rel="stylesheet">
-    <link href="./css/hybrid.css?1651756385" rel="stylesheet">
-    <link href="./css/featherlight.min.css?1651756385" rel="stylesheet">
-    <link href="./css/perfect-scrollbar.min.css?1651756385" rel="stylesheet">
-    <link href="./css/auto-complete.css?1651756385" rel="stylesheet">
-    <link href="./css/atom-one-dark-reasonable.css?1651756385" rel="stylesheet">
-    <link href="./css/theme.css?1651756385" rel="stylesheet">
-    <link href="./css/tabs.css?1651756385" rel="stylesheet">
-    <link href="./css/hugo-theme.css?1651756385" rel="stylesheet">
+    <link href="./css/nucleus.css?1651756811" rel="stylesheet">
+    <link href="./css/fontawesome-all.min.css?1651756811" rel="stylesheet">
+    <link href="./css/hybrid.css?1651756811" rel="stylesheet">
+    <link href="./css/featherlight.min.css?1651756811" rel="stylesheet">
+    <link href="./css/perfect-scrollbar.min.css?1651756811" rel="stylesheet">
+    <link href="./css/auto-complete.css?1651756811" rel="stylesheet">
+    <link href="./css/atom-one-dark-reasonable.css?1651756811" rel="stylesheet">
+    <link href="./css/theme.css?1651756811" rel="stylesheet">
+    <link href="./css/tabs.css?1651756811" rel="stylesheet">
+    <link href="./css/hugo-theme.css?1651756811" rel="stylesheet">
     
-    <link href="./css/theme-mine.css?1651756385" rel="stylesheet">
+    <link href="./css/theme-mine.css?1651756811" rel="stylesheet">
     
     
 
-    <script src="./js/jquery-3.3.1.min.js?1651756385"></script>
+    <script src="./js/jquery-3.3.1.min.js?1651756811"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="./js/lunr.min.js?1651756385"></script>
-<script type="text/javascript" src="./js/auto-complete.js?1651756385"></script>
+<script type="text/javascript" src="./js/lunr.min.js?1651756811"></script>
+<script type="text/javascript" src="./js/auto-complete.js?1651756811"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="./js/search.js?1651756385"></script>
+<script type="text/javascript" src="./js/search.js?1651756811"></script>
 
     
   </div>
@@ -370,6 +370,32 @@
  
   
     
+    <li data-nav-id="/070-agenttools.html" title="Agent Tools" class="dd-item
+        parent
+        active
+        
+        ">
+      <a href="./070-agenttools.html">
+          Agent Tools
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
     <li data-nav-id="/090-conclution.html" title="Conclusion" class="dd-item
         
         
@@ -501,7 +527,7 @@
             
           
           
-            <a href='./'>Genesys Workshop</a> > 
+            <a href='./'>Genesys Workshop</a> > Agent Tools
           
         
           
@@ -512,7 +538,16 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#welcome">Welcome</a></li>
+    <li><a href="#voice-interaction-tools">Voice Interaction Tools</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -528,7 +563,7 @@
           
             <h1>
               
-              
+              Agent Tools
             </h1>
           
 
@@ -536,8 +571,57 @@
 
 
 
+	<h1 id="genesys-workshop-series">Genesys Workshop Series</h1>
+<h1 id="agent-tools">Agent Tools</h1>
+<h2 id="welcome">Welcome</h2>
+<p>The purpose of this scenario is to showcase the tools that agents utilize during interactions. Multiple, disparate systems for voice, mobile, web chat, self-service, social media, CRM, etc., each with their own user interface, makes it difficult for contact centre agents to deliver effortless customer service. Genesys delivers an integrated, omnichannel experience to ensure agents have full insight into customer information and can deliver a personalized customer experience.</p>
+<blockquote>
+<p>This workshop is focused on teaching the team how to utlize agent tools during the following interaction channels: voice, chat, email and SMS. User should already have completed previous modules and should have a voice, chat, email and SMS interactions answered and sitting on the interaction panel screen.</p>
+</blockquote>
+<h2 id="voice-interaction-tools">Voice Interaction Tools</h2>
+<p>As noted above, please ensure you have answered a voice interaction and it is sitting on your interaction panel as seen in the picture below</p>
+<p><img src="images/voiceinteractionpanel.jpg" alt="VoiceInteraction"></p>
+<p><em>Dialpad</em>- Agent is able to enter numbers that automated call systems recognize, such as an account number or a menu selection, during a voice interaction or active business user call.</p>
+<p><em>Mute/Unmute</em>- Agent can mute themselves if necessary</p>
+<p><em>Pause</em>- Agent can place a customer on hold</p>
+<p><img src="images/dialpad.jpg" alt="Dialpad"></p>
+<p><em>Blind Transfer</em>- Agent can transfer an interaction immediately to a person or queue</p>
+<p><em>Consult Transfer</em>-Agent can connect with another agent before transferring the call</p>
+<p><img src="images/Consulttransfer.jpg" alt="Consult"></p>
+<p><em>Start/End Secure Pause</em>- Agent is able pause a recording during an interaction in order to protect sensitive, private, or secure information, such as a credit card number. The agent can still hear the customer, but Genesys Cloud does not record the interaction during the secure pause. This secure pause can also be embedded in the script.</p>
+<p><em>Hang-up</em>- Agent can hang up at the conclusion of the call.</p>
+<p><img src="images/securepause.jpg" alt="SecurePause"></p>
+<p><em>Script</em>- Agents are given written words and logic to follow while processing a call. A script can contain multiple pages of narrative mixed with fields for updating data collected or updated by the agent. Scripts can be created for inbound or outbound interactions.</p>
+<p><img src="images/script.jpg" alt="Script"></p>
+<blockquote>
+<h4 id="scripts-display-editable-records-and-directions-to-each-agent-that-handles-a-particular-type-of-interaction-scripts-present-agents-with-details-about-the-callers-or-contact-often-with-fields-for-collecting-or-updating-information-the-script-seen-in-these-images-is-an-example-and-can-be-completely-customized-and-configured-by-queue-or-type-of-interaction">Scripts display editable records and directions to each agent that handles a particular type of interaction. Scripts present agents with details about the callers or contact, often with fields for collecting or updating information. The script seen in these images is an example and can be completely customized and configured by queue or type of interaction.</h4>
+</blockquote>
+<p> </p>
+<p><em>Google Search</em>- Agent is able to search on Google and find public information about this customer such as social media</p>
+<p><img src="images/google.jpg" alt="Google"></p>
+<p><em>Legal Disclaimer</em>-In the event that an agent must say statements verbatim to stay in compliance, the legal disclaimer button allows them to pop over to their statement, read it verbatim, and return to the script.</p>
+<p><img src="images/legaldisclaimer.jpg" alt="Legal Disclaimer"></p>
+<p><em>Screen Pop</em>- Agents can navigate to the frequently used external websites. For example, if an agent has to check UPS or Fedex tracking, administrators can configure the &ldquo;Screen Pop&rdquo; button to directly open those websites so agents can save time and help the customer faster.</p>
+<p><img src="images/screenpop.jpg" alt="Screen Pop"></p>
+<p><em>Update Info</em>-Agents can update the customer record. In this example, the system is doing a data dip and presenting the CRM customer record. For example, Betty Suarez calls in and tells the agent she moved to Dallas and doesn&rsquo;t live in Austin anymore. An agent can easily update this information and it will update the CRM customer record.</p>
+<p><img src="images/updateinfo.jpg" alt="Update Info"></p>
+<p><em>Secure Flow</em>- Agents are able to process confidential personal information such as social security numbers, credit card numbers, etc. The &ldquo;secure flow&rdquo; button differs from a secure pause in that the &ldquo;secure flow&rdquo; button is setup so that an agent is not able to take any confidential information unless this button has been selected. This button automatically stops/resumes the recording accordingly.</p>
+<p><img src="images/secureflow.jpg" alt="Secure Flow"></p>
+<p><em>CRM Data</em>- Scripts allow administrators to present data from external systems such as CRMS. In this case, the system is doing a data dip into the 3rd party CRM to present relevant information to the agent. As noted above, it is a bi-directional integration so an agent can update information and send it back to the CRM.</p>
+<p><img src="images/crmdata.jpg" alt="CRM"></p>
+<p><em>Account</em>-Agents are given more insight into a customer&rsquo;s account and service information. In this case, the agent can see account information and additional details.</p>
+<p><img src="images/account.jpg" alt="Account"></p>
+<p><img src="images/accountinfo.jpg" alt="Account Info"></p>
+<p><em>Screen Share</em>- A screen share allows an agent to see the customer&rsquo;s screen with their permission. Agents can see what customers do in real time. Agents have to request and receive permimssion from a customer to initiate a screen chat. For voice, the agent verbally communicates the security key to the sharer, who then types in a form. For web chat, Genesys Cloud shares the security key behind the scenes, with no action needed from the agent.</p>
+<p><img src="images/screenshare.jpg" alt="Screen Share"></p>
+<p><em>Agent Assist</em>-Agent Assist provides real-time transcription of a customer call and knowledge suggestions that update automatically based on the context of the conversation. Knowledge suggestions include FAQ or knowledge article recommendations that make agents more efficient and knowledgable. Agents no longer search for information by themselves and can focus on their discussons with customers. In this example, the customer stated they wanted to change their address. Agent assist suggested a relevant article with a 97% confident rating. The agent can then give feedback on whether this article was helpful or not.</p>
+<p><img src="images/agentassist.jpg" alt="Agent Assist"></p>
 
-<footer class="footline">
+
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -767,6 +851,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -787,8 +891,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="./060-application/40_fourth.html" title="Omnichannel Experience"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="./010-introduction.html" title="Intro to Genesys Cloud OmniChannel Setup" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="./090-conclution.html" title="Conclusion" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -798,19 +904,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="./js/clipboard.min.js?1651756385"></script>
-    <script src="./js/perfect-scrollbar.min.js?1651756385"></script>
-    <script src="./js/perfect-scrollbar.jquery.min.js?1651756385"></script>
-    <script src="./js/jquery.sticky.js?1651756385"></script>
-    <script src="./js/featherlight.min.js?1651756385"></script>
-    <script src="./js/highlight.pack.js?1651756385"></script>
+    <script src="./js/clipboard.min.js?1651756811"></script>
+    <script src="./js/perfect-scrollbar.min.js?1651756811"></script>
+    <script src="./js/perfect-scrollbar.jquery.min.js?1651756811"></script>
+    <script src="./js/jquery.sticky.js?1651756811"></script>
+    <script src="./js/featherlight.min.js?1651756811"></script>
+    <script src="./js/highlight.pack.js?1651756811"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="./js/modernizr.custom-3.6.0.js?1651756385"></script>
-    <script src="./js/learn.js?1651756385"></script>
-    <script src="./js/hugo-learn.js?1651756385"></script>
+    <script src="./js/modernizr.custom-3.6.0.js?1651756811"></script>
+    <script src="./js/learn.js?1651756811"></script>
+    <script src="./js/hugo-learn.js?1651756811"></script>
     
         
-            <script src="./mermaid/mermaid.js?1651756385"></script>
+            <script src="./mermaid/mermaid.js?1651756811"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
@@ -820,4 +926,3 @@
 
   </body>
 </html>
-
