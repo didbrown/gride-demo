@@ -40,6 +40,9 @@
   </url><url>
     <loc>/090-conclution.html</loc>
   </url><url>
+    <loc>/070-agenttools.html</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>/categories.html</loc>
     <xhtml:link
                 rel="alternate"
