@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testing on Documentation for Hugo Learn Theme</title>
+    <title>Test Interactions on Documentation for Hugo Learn Theme</title>
     <link>/030-testinteractions.html</link>
-    <description>Recent content in Testing on Documentation for Hugo Learn Theme</description>
+    <description>Recent content in Test Interactions on Documentation for Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/030-testinteractions/index.xml" rel="self" type="application/rss+xml" />
     <item>

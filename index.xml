@@ -50,7 +50,11 @@ Go to the user profile in the top left corner, and verify: (1) you have a phone/
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/080-troubleshooting/10_first.html</guid>
-      <description>Voice Troubleshooting words</description>
+      <description>Voice Troubleshooting If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm calling number is tied to flow
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
     </item>
     
     <item>
@@ -99,7 +103,11 @@ Widgets Genesys offers three native versions of widgets as well as the option to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/080-troubleshooting/20_second.html</guid>
-      <description>Web Chat Troubleshooting </description>
+      <description>Web Chat Troubleshooting If webchat interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm you are using widget version &amp;ldquo;V1&amp;rdquo;
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
     </item>
     
     <item>
@@ -126,7 +134,11 @@ Widgets Genesys offers three native versions of widgets as well as the option to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/080-troubleshooting/30_third.html</guid>
-      <description>SMS Troubleshooting </description>
+      <description>SMS Troubleshooting If SMS interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm SMS number is correct
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
     </item>
     
     <item>
@@ -164,7 +176,11 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/080-troubleshooting/40_fourth.html</guid>
-      <description>Email Troubleshooting </description>
+      <description>Email Troubleshooting If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:
+  Confirm agent is a member of the queue that was created at the beginning of the workshop
+  Confirm you are emailing the correct email address
+  Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
+  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
     </item>
     
     <item>
@@ -175,6 +191,15 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
       <guid>/060-application/40_fourth.html</guid>
       <description>Manual Outbound Interactions   You now have, at least, two-three interactions connected, and you&amp;rsquo;re learning the basics of an omnichannel experience. We&amp;rsquo;re going to throw one more interaction type into the mix. On the phone call, the customer requests that the contact center agent sends out a text message with specific information, such as a retail address, for them to quickly access.
   To complete this request, you need to go into the interaction pane and next to the conversations heading, there will be a &amp;ldquo;+&amp;rdquo; icon next to a human outline.</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>/060-application/50_fifth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/060-application/50_fifth.html</guid>
+      <description></description>
     </item>
     
   </channel>
