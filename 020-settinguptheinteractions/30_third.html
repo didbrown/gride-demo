@@ -11,22 +11,22 @@
     <title>SMS :: Documentation for Hugo Learn Theme</title>
 
     
-    <link href="../css/nucleus.css?1653509910" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1653509910" rel="stylesheet">
-    <link href="../css/hybrid.css?1653509910" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1653509910" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1653509910" rel="stylesheet">
-    <link href="../css/auto-complete.css?1653509910" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1653509910" rel="stylesheet">
-    <link href="../css/theme.css?1653509910" rel="stylesheet">
-    <link href="../css/tabs.css?1653509910" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1653509910" rel="stylesheet">
+    <link href="../css/nucleus.css?1654119889" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1654119889" rel="stylesheet">
+    <link href="../css/hybrid.css?1654119889" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1654119889" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1654119889" rel="stylesheet">
+    <link href="../css/auto-complete.css?1654119889" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1654119889" rel="stylesheet">
+    <link href="../css/theme.css?1654119889" rel="stylesheet">
+    <link href="../css/tabs.css?1654119889" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1654119889" rel="stylesheet">
     
-    <link href="../css/theme-mine.css?1653509910" rel="stylesheet">
+    <link href="../css/theme-mine.css?1654119889" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1653509910"></script>
+    <script src="../js/jquery-3.3.1.min.js?1654119889"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1653509910"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1653509910"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1654119889"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1654119889"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1653509910"></script>
+<script type="text/javascript" src="../js/search.js?1654119889"></script>
 
     
   </div>
@@ -451,9 +451,9 @@
  
   
     
-      <li data-nav-id="/060-application/10_first.html" title="Preparation" class="dd-item ">
+      <li data-nav-id="/060-application/10_first.html" title="Knowledge Check #1" class="dd-item ">
         <a href="../060-application/10_first.html">
-        Preparation
+        Knowledge Check #1
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -472,9 +472,9 @@
  
   
     
-      <li data-nav-id="/060-application/20_second.html" title="Digital Interactions" class="dd-item ">
+      <li data-nav-id="/060-application/20_second.html" title="Knowledge Check #2" class="dd-item ">
         <a href="../060-application/20_second.html">
-        Digital Interactions
+        Knowledge Check #2
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -493,51 +493,9 @@
  
   
     
-      <li data-nav-id="/060-application/30_third.html" title="Voice Interaction" class="dd-item ">
+      <li data-nav-id="/060-application/30_third.html" title="Knowledge Check #3" class="dd-item ">
         <a href="../060-application/30_third.html">
-        Voice Interaction
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/060-application/40_fourth.html" title="Omnichannel Experience" class="dd-item ">
-        <a href="../060-application/40_fourth.html">
-        Omnichannel Experience
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/060-application/50_fifth.html" title="Test" class="dd-item ">
-        <a href="../060-application/50_fifth.html">
-        Test
+        Knowledge Check #3
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -818,7 +776,7 @@
             
           
           
-            <a href='../'>Genesys Workshop</a> > <a href='../020-settinguptheinteractions.html'>Setup</a> > SMS
+            <a href='../'>Genesys Cloud CX Channel Setup</a> > <a href='../020-settinguptheinteractions.html'>Setup</a> > SMS
           
         
           
@@ -874,13 +832,21 @@
 </ol>
 <p><img src="../images/sms1.jpg" alt="SMS">
 2. Go back into the G Ride queue and set the SMS number you just purchased as the outbound SMS number
-<img src="../images/QueueSetSMSOutboundNumber.jpg" alt="Queue Set Outbound SMS Number">
-3. Import the following architect Message flow below following these steps - <a href="https://help.mypurecloud.com/articles/import-export-call-flow/">https://help.mypurecloud.com/articles/import-export-call-flow/</a></p>
-<p>-<a href="../../imports/GRide100MessageFlow_v1-0.i3InboundMessage">Inbound Message Flow</a>
-right click the link and save as</p>
-<p>4.Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step 4</p>
+<img src="../images/QueueSetSMSOutboundNumber.jpg" alt="Queue Set Outbound SMS Number"></p>
+<ol start="3">
+<li>Follow the instructions below to create an inbound message flow</li>
+</ol>
+<p><img src="../images/inboundmessage.jpg" alt="Inbound Message"></p>
+<ol start="4">
+<li>
+<p>Once inside the flow, drag a &ldquo;Transfer to ACD&rdquo; task to the &ldquo;Start menu&rdquo; as seen in the image below. Click the drop-down menu and select your &ldquo;G Ride&rdquo; queue or the queue you created at the beginning. Hit the three dots next to the &ldquo;Disconnect&rdquo; Task to delete this task. Hit &ldquo;Publish&rdquo; once you have completed these steps.
+<img src="../images/inboundmessage1.jpg" alt="Inbound Message"></p>
+</li>
+<li>
+<p>Set up a messaging route to connect your inbound message architect flow and the SMS number you purchased in step two</p>
+</li>
+</ol>
 <p><img src="../images/callrouting1.jpg" alt="Call Routing"></p>
-<!-- raw HTML omitted -->
 
 
 <footer class="footline">
@@ -1205,38 +1171,6 @@ right click the link and save as</p>
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -1358,19 +1292,19 @@ right click the link and save as</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1653509910"></script>
-    <script src="../js/perfect-scrollbar.min.js?1653509910"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1653509910"></script>
-    <script src="../js/jquery.sticky.js?1653509910"></script>
-    <script src="../js/featherlight.min.js?1653509910"></script>
-    <script src="../js/highlight.pack.js?1653509910"></script>
+    <script src="../js/clipboard.min.js?1654119889"></script>
+    <script src="../js/perfect-scrollbar.min.js?1654119889"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1654119889"></script>
+    <script src="../js/jquery.sticky.js?1654119889"></script>
+    <script src="../js/featherlight.min.js?1654119889"></script>
+    <script src="../js/highlight.pack.js?1654119889"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1653509910"></script>
-    <script src="../js/learn.js?1653509910"></script>
-    <script src="../js/hugo-learn.js?1653509910"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1654119889"></script>
+    <script src="../js/learn.js?1654119889"></script>
+    <script src="../js/hugo-learn.js?1654119889"></script>
     
         
-            <script src="../mermaid/mermaid.js?1653509910"></script>
+            <script src="../mermaid/mermaid.js?1654119889"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

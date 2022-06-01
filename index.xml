@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Genesys Workshop on Documentation for Hugo Learn Theme</title>
+    <title>Genesys Cloud CX Channel Setup on Documentation for Hugo Learn Theme</title>
     <link>/</link>
-    <description>Recent content in Genesys Workshop on Documentation for Hugo Learn Theme</description>
+    <description>Recent content in Genesys Cloud CX Channel Setup on Documentation for Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -25,14 +25,12 @@
     </item>
     
     <item>
-      <title>Preparation</title>
+      <title>Knowledge Check #1</title>
       <link>/060-application/10_first.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/060-application/10_first.html</guid>
-      <description>Let&amp;rsquo;s get ready   Step One: Go to the top right corner of the Genesys Cloud CX application (either browser or desktop) and toggle the on-queue switch to on. This turns the user&amp;rsquo;s status to on-queue and available for routing interactions in all queues that the user is active in.
-  Step Two: You need to do two things to ensure you&amp;rsquo;re ready to start receiving interactions:
-Go to the user profile in the top left corner, and verify: (1) you have a phone/endpoint selected (this will typically be webRTC) and (2) hit the activate queues button and ensure you&amp;rsquo;re activated in the queue you created.</description>
+      <description>In this scenario, you are an agent working in the insurance industry. The customer, Betty, has called in to make a payment on their insurance premium. What are two options you have when taking confidential information to ensure the system is not recording personal and confidential information and staying PCI compliant? (scroll down for answer) [] Transfer to a manager  [] Secure Pause  [] Hang Up  [] Secure Flow  [] Transfer to a manager  [] Secure Pause ✅ [] Hang Up  [] Secure Flow ✅ Secure Pause and Secure Flow allow you to pause the recording of a call in order to receive personal or confidential information.</description>
     </item>
     
     <item>
@@ -67,14 +65,12 @@ Go to the user profile in the top left corner, and verify: (1) you have a phone/
     </item>
     
     <item>
-      <title>Digital Interactions</title>
+      <title>Knowledge Check #2</title>
       <link>/060-application/20_second.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/060-application/20_second.html</guid>
-      <description>Scenario The purpose of this scenario is to showcase utilization and how we can manage an omnichannel approach.
-  If not already on-queue, toggle the on-queue switch so that your status is &amp;ldquo;on-queue.&amp;rdquo; From here, we&amp;rsquo;re going to trigger two interaction types - email, and chat.
-  Send an email to the email address domain you created within the Genesys Cloud CX admin panel. If set up appropriately, it will route directly to the &amp;ldquo;G Ride&amp;rdquo; Queue and to your user in the Agent Interface.</description>
+      <description>In this scenario, you are a customer service agent. You have gone through 2 weeks of training and it is your first day alone on the job! Betty, your customer, has messaged in and is asking you about your return policy. You think the answer is that customers can return items within 90 days of purchase, but you&amp;rsquo;re not sure&amp;hellip;what should you do? (scroll down for answer) [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses  [] Transfer the message to a more experienced agent  [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses ✅ [] Transfer the message to a more experienced agent  Canned responses are a great way to find quick information without having to ask anyone else.</description>
     </item>
     
     <item>
@@ -111,6 +107,15 @@ Go to the user profile in the top left corner, and verify: (1) you have a phone/
     </item>
     
     <item>
+      <title>Knowledge Check #3</title>
+      <link>/060-application/30_third.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/060-application/30_third.html</guid>
+      <description>In this scenario, you are an agent working in the retail industry. The customer, Betty, has called in to make a change to her recent order. She explains that she ordered the wrong size for one of her items, but the other item is correct. The scenario is complicated and takes a while to explain. You have to transfer her to another department since she just placed the order and its not a complete cancellation.</description>
+    </item>
+    
+    <item>
       <title>SMS</title>
       <link>/020-settinguptheinteractions/30_third.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -139,16 +144,6 @@ Go to the user profile in the top left corner, and verify: (1) you have a phone/
   Confirm SMS number is correct
   Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
   If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
-    </item>
-    
-    <item>
-      <title>Voice Interaction</title>
-      <link>/060-application/30_third.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/060-application/30_third.html</guid>
-      <description>Scenario   Call the phone number purchased earlier that&amp;rsquo;s tied to the call flow uploaded. In the IVR, you will hear the prompt and then be routed to queue. If your user is on-queue, the interaction will be routed to you and interrupt the digital interactions.
-NOTE: If you&amp;rsquo;re calling from the phone number listed on your user profile, the interaction will not route to you. Please ensure that the ANI you&amp;rsquo;re calling from is separate than the primary voice number listed in GCCX.</description>
     </item>
     
     <item>
@@ -181,25 +176,6 @@ Genesys Cloud routes incoming email messages through ACD just like it routes cal
   Confirm you are emailing the correct email address
   Confirm agent status is set to &amp;ldquo;On-Queue&amp;rdquo;
   If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.</description>
-    </item>
-    
-    <item>
-      <title>Omnichannel Experience</title>
-      <link>/060-application/40_fourth.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/060-application/40_fourth.html</guid>
-      <description>Manual Outbound Interactions   You now have, at least, two-three interactions connected, and you&amp;rsquo;re learning the basics of an omnichannel experience. We&amp;rsquo;re going to throw one more interaction type into the mix. On the phone call, the customer requests that the contact center agent sends out a text message with specific information, such as a retail address, for them to quickly access.
-  To complete this request, you need to go into the interaction pane and next to the conversations heading, there will be a &amp;ldquo;+&amp;rdquo; icon next to a human outline.</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>/060-application/50_fifth.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/060-application/50_fifth.html</guid>
-      <description></description>
     </item>
     
   </channel>
