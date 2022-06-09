@@ -11,7 +11,7 @@
 	"title": "GCCX Channel Setup",
 	"tags": [],
 	"description": "",
-	"content": "GCCX Channel Setup Objective This workshop will teach you at a high level how to set up inbound voice, chat, email and SMS within a Genesys Cloud CX dedicated environment. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. Telephony should already have been set up. (Note: This workshop is not meant for use with the PureCloudNow environment)\nRecommended Prequisite Partner Academy Courses   Introduction to Genesys Cloud CX for Partners\n  Why Cloud? Moving from Reactive to Innovative\n  Genesys Cloud Value Wedge for Partners\n  "
+	"content": "GCCX Channel Setup Objective This workshop will teach you at a high level how to set up inbound voice, chat, email and SMS within a Genesys Cloud CX dedicated environment. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. Telephony should already have been set up. (Note: This workshop is not meant for use with the PureCloudNow environment)\nRecommended Prequisite Partner Academy Courses   Introduction to Genesys Cloud CX for Partners\n  Why Cloud? Moving from Reactive to Innovative\n  Genesys Cloud Value Wedge for Partners\n  test\n"
 },
 {
 	"uri": "/020-settinguptheinteractions/10_first.html",
