@@ -4,14 +4,14 @@
 	"title": "Genesys Cloud CX Channel Setup",
 	"tags": [],
 	"description": "",
-	"content": "Welcome In this workshop you will learn to apply your foundational knowledge of Genesys and master example use cases that demonstrate Experience as a Service.\nLearning Objectives  Setup and configure your environment. Creating users and groups. Configure security.  "
+	"content": "Welcome In this workshop you will learn to apply your foundational knowledge of Genesys and master example use cases that demonstrate Experience as a Service.\nRecommended Prequisite Partner Academy Courses   Introduction to Genesys Cloud CX for Partners\n  Why Cloud? Moving from Reactive to Innovative\n  Genesys Cloud Value Wedge for Partners\n  "
 },
 {
 	"uri": "/010-introduction.html",
-	"title": "GCCX Channel Setup",
+	"title": "Dev Lab Setup",
 	"tags": [],
 	"description": "",
-	"content": "GCCX Channel Setup Objective This workshop will teach you at a high level how to set up inbound voice, chat, email and SMS within a Genesys Cloud CX dedicated environment. You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools. Telephony should already have been set up. (Note: This workshop is not meant for use with the PureCloudNow environment)\nRecommended Prequisite Partner Academy Courses   Introduction to Genesys Cloud CX for Partners\n  Why Cloud? Moving from Reactive to Innovative\n  Genesys Cloud Value Wedge for Partners\n  test\n"
+	"content": "Dev Lab Setup Objective This workshop is intended to take you from activating your Dev Lab to answering your first call . You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools.\nNotes before you start:\n  It is recommended to use search functionality in the admin panel vs. manually trying to navigate to any of the admin sections (Please see image below)   It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc\n  "
 },
 {
 	"uri": "/020-settinguptheinteractions/10_first.html",
@@ -159,6 +159,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Scenarios Objective You\u0026rsquo;ve reached the final module of this workshop! You will now test your knowledge on using Genesys Cloud to take interactions and assist customers in different scenarios. In this section, you will be given various scenarios and must decide on the correct answer. Once this section is complete, you are ready to begin taking real life interactions!\n"
+},
+{
+	"uri": "/070-activation.html",
+	"title": "Activating Your Account",
+	"tags": [],
+	"description": "",
+	"content": "Activating Your Account   Open your welcome email and click the link to activate the account.    The link will navigate you to the initial account creation screen requesting company name, email and password for the initial account. It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users   Admin \u0026gt; Genesys Add Ons \u0026gt; Find the Genesys Cloud Voice Tile and ensure it is active    This should be enabled by default, however non GCV org orders will require manual activation  If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate  Note: You may need to skip and come back to \u0026ldquo;Ensuring Genesys Cloud Voice is Activated\u0026rdquo; as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first\n"
 },
 {
 	"uri": "/080-troubleshooting.html",
