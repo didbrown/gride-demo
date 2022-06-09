@@ -1,11 +1,10 @@
-baseURL = '/'
+baseURL = 'https://workshop.live.genesys.com'
 languageCode = 'en-us'
-title = 'Genesys Workshops: Harbor Tour'
+title = 'Genesys Workshops'
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= "false"
 uglyurls = "true"
-relativeURLs = true
 enableEmoji = true
 
 [params]
@@ -64,7 +63,7 @@ languageName = "Français"
 
 [[menu.shortcuts]] 
 name = "<i class='fas fa-graduation-cap'></i> Genesys Workshops"
-url = "https://workshop.genesys.com"
+url = "https://workshop.live.genesys.com"
 weight = 10
 
 [[menu.shortcuts]]
@@ -98,4 +97,3 @@ weight = 20
       hardWraps = false
       unsafe = false
       xhtml = false
-      
