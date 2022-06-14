@@ -26,11 +26,11 @@
   </url><url>
     <loc>/080-troubleshooting/10_first.html</loc>
   </url><url>
+    <loc>/070-activation.html</loc>
+  </url><url>
     <loc>/040-agenttools/20_second.html</loc>
   </url><url>
     <loc>/060-application/20_second.html</loc>
-  </url><url>
-    <loc>/020-settinguptheinteractions.html</loc>
   </url><url>
     <loc>/020-settinguptheinteractions/20_second.html</loc>
   </url><url>
@@ -40,15 +40,13 @@
   </url><url>
     <loc>/060-application/30_third.html</loc>
   </url><url>
+    <loc>/020-settinguptheinteractions.html</loc>
+  </url><url>
     <loc>/020-settinguptheinteractions/30_third.html</loc>
   </url><url>
     <loc>/030-testinteractions/30_third.html</loc>
   </url><url>
     <loc>/080-troubleshooting/30_third.html</loc>
-  </url><url>
-    <loc>/030-testinteractions.html</loc>
-  </url><url>
-    <loc>/040-agenttools.html</loc>
   </url><url>
     <loc>/020-settinguptheinteractions/40_fourth.html</loc>
   </url><url>
@@ -56,9 +54,11 @@
   </url><url>
     <loc>/080-troubleshooting/40_fourth.html</loc>
   </url><url>
-    <loc>/060-application.html</loc>
+    <loc>/030-testinteractions.html</loc>
   </url><url>
-    <loc>/070-activation.html</loc>
+    <loc>/040-agenttools.html</loc>
+  </url><url>
+    <loc>/060-application.html</loc>
   </url><url>
     <loc>/080-troubleshooting.html</loc>
   </url><url>
