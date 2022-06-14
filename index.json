@@ -8,10 +8,10 @@
 },
 {
 	"uri": "/010-introduction.html",
-	"title": "Dev Lab Setup",
+	"title": "Before You Begin",
 	"tags": [],
 	"description": "",
-	"content": "Dev Lab Setup Objective This workshop is intended to take you from activating your Dev Lab to answering your first call . You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools.\nNotes before you start:\n  It is recommended to use search functionality in the admin panel vs. manually trying to navigate to any of the admin sections (Please see image below)   It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc\n  "
+	"content": "Dev Lab Setup Objective This workshop is intended to take you from activating your Dev Lab to answering your first call . You will learn what tools agents have at their disposal when handling the interactions and how to best leverage those tools.\nNotes before you start:\n  It is recommended to use search functionality in the admin panel vs. manually trying to navigate to any of the admin sections (Please see image below)   It is highly recommended to use naming conventions when creating any items (other than location, site, and base settings) to ensure you are not developing over colleague deployments. Ex: JaneDoe_Queue or JaneDoe_Inboundflow, etc\n  Activating Your Account\n  Open your welcome email and click the link to activate the account.    The link will navigate you to the initial account creation screen requesting company name, email and password for the initial account. It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users   Admin \u0026gt; Genesys Add Ons \u0026gt; Find the Genesys Cloud Voice Tile and ensure it is active    This should be enabled by default, however non GCV org orders will require manual activation  If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate  Note: You may need to skip and come back to \u0026ldquo;Ensuring Genesys Cloud Voice is Activated\u0026rdquo; as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first\n"
 },
 {
 	"uri": "/020-settinguptheinteractions/10_first.html",
@@ -49,13 +49,6 @@
 	"content": "Voice Troubleshooting If voice interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:\n  Confirm agent is a member of the queue that was created at the beginning of the workshop\n  Confirm calling number is tied to flow\n  Confirm agent status is set to \u0026ldquo;On-Queue\u0026rdquo;\n  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.guevara@genesys.com.\n"
 },
 {
-	"uri": "/070-activation.html",
-	"title": "Activating Your Account",
-	"tags": [],
-	"description": "",
-	"content": "Activating Your Account   Open your welcome email and click the link to activate the account.    The link will navigate you to the initial account creation screen requesting company name, email and password for the initial account. It is recommended that you enter in a shared account for this initial setup, instead of a personal account, to simplify recovery for future users   Admin \u0026gt; Genesys Add Ons \u0026gt; Find the Genesys Cloud Voice Tile and ensure it is active    This should be enabled by default, however non GCV org orders will require manual activation  If activation is required, select the tile and activate GCV- this can take around 10 minutes to fully activate  Note: You may need to skip and come back to \u0026ldquo;Ensuring Genesys Cloud Voice is Activated\u0026rdquo; as making sure the proper roles and permissions have been assigned to the user may need to be accomplished first\n"
-},
-{
 	"uri": "/040-agenttools/20_second.html",
 	"title": "Digital Interactions",
 	"tags": [],
@@ -68,6 +61,13 @@
 	"tags": [],
 	"description": "",
 	"content": "In this scenario, you are a customer service agent. You have gone through 2 weeks of training and it is your first day alone on the job! Betty, your customer, has messaged in and is asking you about your return policy. You think the answer is that customers can return items within 90 days of purchase, but you\u0026rsquo;re not sure\u0026hellip;what should you do? (scroll down for answer) [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses  [] Transfer the message to a more experienced agent  [] Message your manager and ask  [] Get up and ask a fellow agent  [] Check your canned responses ✅ [] Transfer the message to a more experienced agent  Canned responses are a great way to find quick information without having to ask anyone else. This ensures you are answering questions fast and keeping your AHT low. "
+},
+{
+	"uri": "/070-userconfiguration.html",
+	"title": "User Configuration",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "/020-settinguptheinteractions/20_second.html",
@@ -98,13 +98,6 @@
 	"content": "In this scenario, you are an agent working in the retail industry. The customer, Betty, has called in to make a change to her recent order. She explains that she ordered the wrong size for one of her items, but the other item is correct. The scenario is complicated and takes a while to explain. You have to transfer her to another department since she just placed the order and its not a complete cancellation. What is the best option for you to use? (scroll down for answer) [] Blind Transfer  [] Put Betty on hold and call your manager to fix the order  [] Hang Up and have the correct team call her back  [] Consult Transfer  [] Blind Transfer  [] Put Betty on hold and call your manager to fix the order  [] Hang Up and have the correct team call her back  [] Consult Transfer ✅ In this scenario, consult transfer is your best option. Betty\u0026rsquo;s explanation was long and complicated, and its best if you brief the agent before transferring. This will ensure the next agent has all the appropriate information, and that Betty doesn\u0026rsquo;t have to repeat herself! "
 },
 {
-	"uri": "/020-settinguptheinteractions.html",
-	"title": "Setup",
-	"tags": [],
-	"description": "",
-	"content": "Setup Objective By the end of this section, you should have an omnichannel contact center in the works. You’ll learn the steps to set up inbound voice, chat, SMS and email. So let’s get into the details, please be prepared to follow along in the upcoming sections.\n"
-},
-{
 	"uri": "/020-settinguptheinteractions/30_third.html",
 	"title": "SMS",
 	"tags": [],
@@ -126,6 +119,13 @@
 	"content": "SMS Troubleshooting If SMS interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:\n  Confirm agent is a member of the queue that was created at the beginning of the workshop\n  Confirm SMS number is correct\n  Confirm agent status is set to \u0026ldquo;On-Queue\u0026rdquo;\n  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.guevara@genesys.com.\n"
 },
 {
+	"uri": "/050-telephony.html",
+	"title": "Telephony",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "/020-settinguptheinteractions/40_fourth.html",
 	"title": "Email",
 	"tags": [],
@@ -145,6 +145,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Email Troubleshooting If email interactions are not being routed to the correct agent/queue or are not appearing in the interaction pane, please walk through the following troubleshooting tips:\n  Confirm agent is a member of the queue that was created at the beginning of the workshop\n  Confirm you are emailing the correct email address\n  Confirm agent status is set to \u0026ldquo;On-Queue\u0026rdquo;\n  If interactions are still not being routed correctly, please reach out to Veronica Guevara at veronica.guevara@genesys.com.\n"
+},
+{
+	"uri": "/020-settinguptheinteractions.html",
+	"title": "Omnichannel Setup",
+	"tags": [],
+	"description": "",
+	"content": "Setup Objective By the end of this section, you should have an omnichannel contact center in the works. You’ll learn the steps to set up inbound voice, chat, SMS and email. So let’s get into the details, please be prepared to follow along in the upcoming sections.\n"
 },
 {
 	"uri": "/030-testinteractions.html",
